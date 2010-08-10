@@ -1,0 +1,16 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 13:15:12) [GET]
+
+ActionController::RoutingError (No route matches "/consomews" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-08-10 13:15:24) [GET]
+Completed in 63ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-08-10 13:15:25) [GET]
+Completed in 34ms (View: 0, DB: 0) | 200 OK [http://localhost/wsconsome]
