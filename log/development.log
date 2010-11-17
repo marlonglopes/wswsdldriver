@@ -14,3 +14,517 @@ Completed in 63ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
 
 Processing WsconsomeController#index (for 127.0.0.1 at 2010-08-10 13:15:25) [GET]
 Completed in 34ms (View: 0, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-16 21:51:48) [GET]
+
+ActionController::RoutingError (No route matches "/wscnsome" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-08-16 21:51:58) [GET]
+Completed in 617ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-08-16 21:52:03) [GET]
+Completed in 309ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-08-16 21:52:05) [GET]
+Completed in 265ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-08-16 21:52:06) [GET]
+Completed in 286ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-08-16 21:52:08) [GET]
+Completed in 264ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-09-09 23:35:36) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 107ms (View: 2, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-09-09 23:35:38) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 22ms (View: 2, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-09 23:35:44) [GET]
+
+ActionController::RoutingError (No route matches "/iser" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-09 23:36:11) [GET]
+
+ActionController::RoutingError (No route matches "/wsconsone" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:17) [GET]
+Completed in 3607ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:25) [GET]
+Completed in 118ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:26) [GET]
+Completed in 143ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:27) [GET]
+Completed in 143ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:28) [GET]
+Completed in 136ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:29) [GET]
+Completed in 115ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:30) [GET]
+Completed in 119ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:33) [GET]
+Completed in 165ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:36) [GET]
+Completed in 118ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:47) [GET]
+Completed in 176ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:55) [GET]
+Completed in 100ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:57) [GET]
+Completed in 141ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:36:58) [GET]
+Completed in 770ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:00) [GET]
+Completed in 96ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:01) [GET]
+Completed in 108ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:02) [GET]
+Completed in 128ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:02) [GET]
+Completed in 129ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:03) [GET]
+Completed in 126ms (View: 0, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:03) [GET]
+Completed in 95ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:04) [GET]
+Completed in 122ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:04) [GET]
+Completed in 206ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:04) [GET]
+Completed in 103ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:04) [GET]
+Completed in 125ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:05) [GET]
+Completed in 139ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:05) [GET]
+Completed in 101ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:06) [GET]
+Completed in 107ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:06) [GET]
+Completed in 119ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:06) [GET]
+Completed in 100ms (View: 2, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:07) [GET]
+Completed in 110ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:07) [GET]
+Completed in 160ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:07) [GET]
+Completed in 113ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:08) [GET]
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:08) [GET]
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:08) [GET]
+Completed in 96ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:09) [GET]
+Completed in 104ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:09) [GET]
+Completed in 104ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:09) [GET]
+Completed in 115ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:10) [GET]
+Completed in 122ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:10) [GET]
+Completed in 102ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:10) [GET]
+Completed in 95ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:11) [GET]
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:11) [GET]
+Completed in 94ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:11) [GET]
+Completed in 113ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:11) [GET]
+Completed in 104ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:12) [GET]
+Completed in 126ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:12) [GET]
+Completed in 136ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:13) [GET]
+Completed in 168ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:13) [GET]
+Completed in 152ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:13) [GET]
+Completed in 141ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:14) [GET]
+Completed in 135ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:14) [GET]
+Completed in 152ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:14) [GET]
+Completed in 166ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:15) [GET]
+Completed in 167ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:15) [GET]
+Completed in 131ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:16) [GET]
+Completed in 122ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:16) [GET]
+Completed in 132ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:16) [GET]
+Completed in 126ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:17) [GET]
+Completed in 124ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:17) [GET]
+Completed in 120ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:17) [GET]
+Completed in 136ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:18) [GET]
+Completed in 287ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:18) [GET]
+Completed in 149ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:19) [GET]
+Completed in 119ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:19) [GET]
+Completed in 154ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:19) [GET]
+Completed in 298ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:20) [GET]
+Completed in 146ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:20) [GET]
+Completed in 160ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:21) [GET]
+Completed in 137ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:21) [GET]
+Completed in 272ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:21) [GET]
+Completed in 133ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:22) [GET]
+Completed in 129ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:22) [GET]
+Completed in 129ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:22) [GET]
+Completed in 264ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:23) [GET]
+Completed in 124ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:23) [GET]
+Completed in 135ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:24) [GET]
+Completed in 113ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:24) [GET]
+Completed in 321ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:24) [GET]
+Completed in 111ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:25) [GET]
+Completed in 119ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:25) [GET]
+Completed in 102ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:25) [GET]
+Completed in 191ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:26) [GET]
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:26) [GET]
+Completed in 130ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:26) [GET]
+Completed in 114ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:27) [GET]
+Completed in 181ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:27) [GET]
+Completed in 126ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:27) [GET]
+Completed in 113ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:28) [GET]
+Completed in 121ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:28) [GET]
+Completed in 233ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:28) [GET]
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:29) [GET]
+Completed in 112ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:29) [GET]
+Completed in 464ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:30) [GET]
+Completed in 288ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:30) [GET]
+Completed in 128ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:31) [GET]
+Completed in 132ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:31) [GET]
+Completed in 132ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-09-09 23:37:31) [GET]
+Completed in 190ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-11-16 23:31:44) [GET]
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 53ms (View: 3, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:33:07) [GET]
+
+NoMethodError (undefined method `GHCGenericFunction' for nil:NilClass):
+  app/controllers/wsconsome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (38.2ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:33:50) [GET]
+Completed in 4385ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:23) [GET]
+Completed in 327ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:24) [GET]
+Completed in 553ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:25) [GET]
+Completed in 355ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:26) [GET]
+Completed in 384ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:26) [GET]
+Completed in 298ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:35) [GET]
+Completed in 310ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:36) [GET]
+Completed in 334ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:36) [GET]
+Completed in 283ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:46) [GET]
+Completed in 323ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:51) [GET]
+Completed in 310ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:53) [GET]
+Completed in 369ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
