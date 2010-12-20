@@ -528,3 +528,213 @@ Completed in 310ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
 
 Processing WsconsomeController#index (for 127.0.0.1 at 2010-11-16 23:34:53) [GET]
 Completed in 369ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-20 16:05:34) [GET]
+
+ActionController::RoutingError (No route matches "/wsconsole" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 16:05:37) [GET]
+
+Errno::ETIMEDOUT (Connection timed out - connect(2)):
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `initialize'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `open'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/timeout.rb:101:in `timeout'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:553:in `do_start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:542:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/netHttpClient.rb:115:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/netHttpClient.rb:104:in `get_content'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/xmlSchema/importer.rb:64:in `fetch'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/xmlSchema/importer.rb:30:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/importer.rb:18:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:124:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:28:in `initialize'
+  app/controllers/wsconsome_controller.rb:8:in `new'
+  app/controllers/wsconsome_controller.rb:8:in `index'
+
+Rendered rescues/_trace (40.6ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 16:06:06) [GET]
+
+Errno::ETIMEDOUT (Connection timed out - connect(2)):
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `initialize'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `open'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/timeout.rb:101:in `timeout'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:553:in `do_start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:542:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/netHttpClient.rb:115:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/netHttpClient.rb:104:in `get_content'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/xmlSchema/importer.rb:64:in `fetch'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/xmlSchema/importer.rb:30:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/importer.rb:18:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:124:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:28:in `initialize'
+  app/controllers/wsconsome_controller.rb:8:in `new'
+  app/controllers/wsconsome_controller.rb:8:in `index'
+
+Rendered rescues/_trace (75.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 16:13:25) [GET]
+
+Errno::ETIMEDOUT (Connection timed out - connect(2) (http://workflow.ghc.com.br:80)):
+  httpclient (2.1.6) lib/httpclient/session.rb:734:in `initialize'
+  httpclient (2.1.6) lib/httpclient/session.rb:734:in `new'
+  httpclient (2.1.6) lib/httpclient/session.rb:734:in `create_socket'
+  httpclient (2.1.6) lib/httpclient/session.rb:691:in `connect'
+  httpclient (2.1.6) lib/httpclient/timeout.rb:129:in `timeout'
+  httpclient (2.1.6) lib/httpclient/session.rb:690:in `connect'
+  httpclient (2.1.6) lib/httpclient/session.rb:554:in `query'
+  httpclient (2.1.6) lib/httpclient/session.rb:151:in `query'
+  httpclient (2.1.6) lib/httpclient.rb:989:in `do_get_block'
+  httpclient (2.1.6) lib/httpclient.rb:798:in `do_request'
+  httpclient (2.1.6) lib/httpclient.rb:885:in `protect_keep_alive_disconnected'
+  httpclient (2.1.6) lib/httpclient.rb:797:in `do_request'
+  httpclient (2.1.6) lib/httpclient.rb:870:in `follow_redirect'
+  httpclient (2.1.6) lib/httpclient.rb:532:in `get_content'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/xmlSchema/importer.rb:64:in `fetch'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/xmlSchema/importer.rb:30:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/importer.rb:18:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:124:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:28:in `initialize'
+  app/controllers/wsconsome_controller.rb:8:in `new'
+  app/controllers/wsconsome_controller.rb:8:in `index'
+
+Rendered rescues/_trace (42.4ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-20 16:29:46) [GET]
+
+SyntaxError (/home/administrator/railsprojects/wswsdldriver/app/controllers/wsconsome_controller.rb:6: unterminated string meets end of file
+/home/administrator/railsprojects/wswsdldriver/app/controllers/wsconsome_controller.rb:6: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (24.1ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-20 16:29:47) [GET]
+
+SyntaxError (/home/administrator/railsprojects/wswsdldriver/app/controllers/wsconsome_controller.rb:6: unterminated string meets end of file
+/home/administrator/railsprojects/wswsdldriver/app/controllers/wsconsome_controller.rb:6: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (57.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 16:29:58) [GET]
+
+HTTPClient::ReceiveTimeoutError (execution expired):
+  httpclient (2.1.6) lib/httpclient/timeout.rb:42:in `parse_header'
+  httpclient (2.1.6) lib/httpclient/timeout.rb:129:in `timeout'
+  httpclient (2.1.6) lib/httpclient/session.rb:804:in `parse_header'
+  httpclient (2.1.6) lib/httpclient/session.rb:787:in `read_header'
+  httpclient (2.1.6) lib/httpclient/session.rb:611:in `get_header'
+  httpclient (2.1.6) lib/httpclient.rb:1043:in `do_get_header'
+  httpclient (2.1.6) lib/httpclient.rb:992:in `do_get_block'
+  httpclient (2.1.6) lib/httpclient.rb:798:in `do_request'
+  httpclient (2.1.6) lib/httpclient.rb:885:in `protect_keep_alive_disconnected'
+  httpclient (2.1.6) lib/httpclient.rb:797:in `do_request'
+  httpclient (2.1.6) lib/httpclient.rb:695:in `request'
+  httpclient (2.1.6) lib/httpclient.rb:617:in `post'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/streamHandler.rb:170:in `send_post'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/streamHandler.rb:109:in `send'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/proxy.rb:170:in `route'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/proxy.rb:141:in `call'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/driver.rb:178:in `call'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/driver.rb:232:in `gHCGenericFunction'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:117:in `__send__'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:117:in `GHCGenericFunction'
+  app/controllers/wsconsome_controller.rb:10:in `index'
+
+Rendered rescues/_trace (35.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 16:43:14) [GET]
+
+HTTPClient::ReceiveTimeoutError (execution expired):
+  httpclient (2.1.6) lib/httpclient/timeout.rb:42:in `parse_header'
+  httpclient (2.1.6) lib/httpclient/timeout.rb:129:in `timeout'
+  httpclient (2.1.6) lib/httpclient/session.rb:804:in `parse_header'
+  httpclient (2.1.6) lib/httpclient/session.rb:787:in `read_header'
+  httpclient (2.1.6) lib/httpclient/session.rb:611:in `get_header'
+  httpclient (2.1.6) lib/httpclient.rb:1043:in `do_get_header'
+  httpclient (2.1.6) lib/httpclient.rb:992:in `do_get_block'
+  httpclient (2.1.6) lib/httpclient.rb:798:in `do_request'
+  httpclient (2.1.6) lib/httpclient.rb:885:in `protect_keep_alive_disconnected'
+  httpclient (2.1.6) lib/httpclient.rb:797:in `do_request'
+  httpclient (2.1.6) lib/httpclient.rb:695:in `request'
+  httpclient (2.1.6) lib/httpclient.rb:617:in `post'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/streamHandler.rb:170:in `send_post'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/streamHandler.rb:109:in `send'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/proxy.rb:170:in `route'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/proxy.rb:141:in `call'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/driver.rb:178:in `call'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/driver.rb:232:in `gHCGenericFunction'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:117:in `__send__'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:117:in `GHCGenericFunction'
+  app/controllers/wsconsome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (72.1ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-12-20 16:45:00) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 25ms (View: 2, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 16:45:04) [GET]
+
+HTTPClient::ReceiveTimeoutError (execution expired):
+  httpclient (2.1.6) lib/httpclient/timeout.rb:42:in `parse_header'
+  httpclient (2.1.6) lib/httpclient/timeout.rb:129:in `timeout'
+  httpclient (2.1.6) lib/httpclient/session.rb:804:in `parse_header'
+  httpclient (2.1.6) lib/httpclient/session.rb:787:in `read_header'
+  httpclient (2.1.6) lib/httpclient/session.rb:611:in `get_header'
+  httpclient (2.1.6) lib/httpclient.rb:1043:in `do_get_header'
+  httpclient (2.1.6) lib/httpclient.rb:992:in `do_get_block'
+  httpclient (2.1.6) lib/httpclient.rb:798:in `do_request'
+  httpclient (2.1.6) lib/httpclient.rb:885:in `protect_keep_alive_disconnected'
+  httpclient (2.1.6) lib/httpclient.rb:797:in `do_request'
+  httpclient (2.1.6) lib/httpclient.rb:695:in `request'
+  httpclient (2.1.6) lib/httpclient.rb:617:in `post'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/streamHandler.rb:170:in `send_post'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/streamHandler.rb:109:in `send'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/proxy.rb:170:in `route'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/proxy.rb:141:in `call'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/driver.rb:178:in `call'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/rpc/driver.rb:232:in `gHCGenericFunction'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:117:in `__send__'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:117:in `GHCGenericFunction'
+  app/controllers/wsconsome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (37.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
