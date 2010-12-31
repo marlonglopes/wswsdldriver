@@ -738,3 +738,73 @@ HTTPClient::ReceiveTimeoutError (execution expired):
 Rendered rescues/_trace (37.2ms)
 Rendered rescues/_request_and_response (0.2ms)
 Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (12.7ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (16.7ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (2.4ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 19:39:59) [GET]
+
+Errno::ETIMEDOUT (Connection timed out - connect(2)):
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `initialize'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `open'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/timeout.rb:101:in `timeout'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:560:in `connect'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:553:in `do_start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/net/http.rb:542:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/netHttpClient.rb:115:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/netHttpClient.rb:104:in `get_content'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/xmlSchema/importer.rb:64:in `fetch'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/xmlSchema/importer.rb:30:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/wsdl/importer.rb:18:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:124:in `import'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/soap/wsdlDriver.rb:28:in `initialize'
+  app/controllers/wsconsome_controller.rb:19:in `new'
+  app/controllers/wsconsome_controller.rb:19:in `wsdl'
+  app/controllers/wsconsome_controller.rb:9:in `index'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/administrator/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (67.4ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 19:41:10) [GET]
+Completed in 1102ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 19:41:25) [GET]
+Completed in 351ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
+
+
+Processing WsconsomeController#index (for 127.0.0.1 at 2010-12-20 19:41:37) [GET]
+Completed in 344ms (View: 1, DB: 0) | 200 OK [http://localhost/wsconsome]
